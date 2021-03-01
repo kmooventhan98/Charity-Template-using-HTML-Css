@@ -1,0 +1,35 @@
+#features{
+    padding: 50px;
+}
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+    img{
+        width: 100px;
+    }
+    h4{
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+}
+.feature-btn{
+    margin: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    .line{
+        text-align: right;
+        display: inline-block;
+        margin-right: 25px;
+    }
+}
